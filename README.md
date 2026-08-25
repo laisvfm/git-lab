@@ -1,4 +1,4 @@
-# Meu Git Lab
+# My Git Lab
 
-Repositório criado para aprender Git e GitHub.
-Aprendendo na prática!
+Repository created to learn, practice, and master Git e GitHub.
+Learning by doing!
