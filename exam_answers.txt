@@ -1,0 +1,39 @@
+Scenario 1: The Interruption
+You are halfway through writing a new feature. Your code is a broken, half-finished mess.
+Suddenly, you get an alert that a critical bug is on the main branch and you need to switch
+branches immediately to fix it. What command do you use to hide your unfinished work in a
+temporary drawer without committing it?
+
+Scenario 2: The Resurrection
+You panicked and accidentally ran a destructive command, completely deleting an entire
+branch of unpushed commits. They are gone from your standard git log. What hidden diary
+command do you use to find those lost commit hashes and bring your code back from the dead?
+
+Scenario 3: The Surgeon
+A colleague's feature branch is a disaster filled with 20 terrible commits. However,
+right in the middle, there is one brilliant commit containing a utility function you 
+desperately need on your branch. What command allows you to target and copy just that
+single commit?
+
+Scenario 4: The Detective
+Someone introduced a fatal error into the project sometime in the last two weeks, but there
+are over 100 commits to check. What command do you use to launch an automatic binary search
+that cuts the history in half, helping you find the exact bad commit in seconds?
+
+
+Answers: 
+
+. Scenario 1 (The Interruption): The answer is `git stash`, a command that temporarily
+shelves (stores) uncommited changes so you can work on something else, then come back
+and re-apply them later.
+
+. Scenario 2 (The Resurrection): The answer is `git reflog`, it lets you see where 
+your branch and HEAD have been, even changes you made by mistake.
+
+. Scenario 3 (The Surgeon): The answer is `git cherry-pick`, it means choosing a commit
+from one branch and applying it to another.
+
+. Scenario 4 (The Detective): The answer is `git bisect` it's a debugging tool that
+uses binary search algorith to find the exact commit that introduced a bug or regression
+into your codebase.
+
