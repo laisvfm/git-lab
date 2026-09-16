@@ -70,4 +70,4 @@ To speed up my workflow, I configured these global shortcuts in my terminal:
 * `git s` ➔ `git status`
 * `git co` ➔ `git switch`
 
-*(To see how to revert or configure new shortcuts, visit this repository's [Wiki](https://github.com/laisvfm/git-lab/wiki/Git-Survival-Guide)).*
+*(To see how to revert or configure new shortcuts, visit this repository's [Wiki](https://github.com/laisvfm/git-lab/wiki/Git%E2%80%90Survival%E2%80%90Guide)).*
