@@ -41,6 +41,32 @@ repository.
 
 ---
 
+## 🔀 Branches (Parallel Universes)
+
+Never develop directly on `main`. Isolate your features and risks.
+
+*   **`git switch -c <branch-name>`**: Creates and immediately switches to a new branch.
+*   **`git switch main`**: Returns to the main timeline.
+*   **`git merge <branch-name>`**: Merges the completed branch into your current branch
+(In the corporate world, we usually do this via Pull Requests on GitHub instead of the
+terminal).
+
+---
+
+## 🚑 First Aid Kit (Undo & Fix)
+
+For when panic strikes and you need to fix a mistake:
+
+*   **`git restore <file>`**: Discards uncommitted changes in a specific file, returning
+it to the state of the last commit.
+*   **`git commit --amend`**: Opens the last local commit so you can fix the message or
+add a forgotten file. *(Never use this if the commit is already pushed!)*
+*   **`git revert <hash>`**: The safe way to undo a mistake that is already on GitHub.
+It creates a new forward-moving commit that does the exact opposite of the bad commit,
+preserving public history.
+
+---
+
 ## 🚀 Advanced Tools (Rescue & Surgery)
 
 When the basics aren't enough, these are the tools to save the day:
