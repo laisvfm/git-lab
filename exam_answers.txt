@@ -37,8 +37,3 @@ from one branch and applying it to another.
 uses binary search algorith to find the exact commit that introduced a bug or regression
 into your codebase.
 
--------------------------------------------------------------------------------
-
-Scenario 5: Branch Practice
-
-This scenario is for practicing Git branches.
